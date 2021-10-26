@@ -6,10 +6,8 @@ application.properties:
 spring.datasource.url=jdbc:mysql://localhost:3306/plant
 spring.datasource.username=sa
 spring.datasource.password=sa1234
-
 spring.sql.init.mode=always
 spring.jpa.hibernate.ddl-auto= none
-
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 
@@ -33,6 +31,6 @@ spring.jpa.hibernate.ddl-auto=none
 
 
 
-without any sql scripts,use the following configuration:
+WITHOUT any sql scripts,use the following configuration:
 spring.datasource.initialization-mode=always
 spring.jpa.hibernate.ddl-auto=none
